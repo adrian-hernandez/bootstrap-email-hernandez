@@ -14,7 +14,13 @@ body {
     padding: 10px 20px;
 }
 
-.sidebar .nav-link.active {
+.sidebar .nav-link {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.sidebar .nav-link:hover {
     background-color: #e9ecef;
     color: #007bff;
     font-weight: bold;
