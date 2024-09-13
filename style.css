@@ -1,0 +1,38 @@
+/* Body padding to prevent overlap with navbar */
+body {
+    padding-top: 56px;
+}
+
+.sidebar {
+    height: 100vh;
+    padding-top: 1rem;
+}
+
+.sidebar .nav-link {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.sidebar .nav-link {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #e9ecef;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.emails p {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+    padding: 20px;
+}
