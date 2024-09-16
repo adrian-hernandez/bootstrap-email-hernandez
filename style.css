@@ -1,11 +1,10 @@
-/* Body padding to prevent overlap with navbar */
-body {
-    padding-top: 56px;
-}
-
 .sidebar {
     height: 100vh;
     padding-top: 1rem;
+}
+
+.logo {
+    height: 50px;
 }
 
 .sidebar .nav-link {
