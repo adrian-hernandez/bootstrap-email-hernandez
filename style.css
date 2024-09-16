@@ -41,3 +41,18 @@
     color: #007bff;
     cursor: pointer;
 }
+
+/* Position modal in the bottom right corner */
+.modal-dialog-bottom-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    width: 500px;
+    height: auto;
+    transform: translateX(0) translateY(0);
+}
+
+.modal-lg {
+    max-width: 100%;
+}
