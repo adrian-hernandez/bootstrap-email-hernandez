@@ -36,6 +36,12 @@
     cursor: pointer;
 }
 
+.email-list-container .email-item:hover {
+    background-color: #f6f7f9;
+    color: #007bff;
+    cursor: pointer;
+}
+
 /* Position modal in the bottom right corner */
 .modal-dialog-bottom-right {
     position: fixed;
