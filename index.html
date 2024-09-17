@@ -13,24 +13,28 @@
 </head>
 <body>
     <!-- Top Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <nav class="navbar navbar-expand navbar-light bg-light shadow-sm">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/bay-mail.png" alt="Bay Mail Logo" class="logo">
-            </a>
-            <button class="navbar-toggler" type="button" aria-controls="navbarSearch" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Toggler button (visible only on small screens) -->
+            <button class="navbar-toggler d-block d-sm-none me-2" type="button" aria-controls="navbarSearch" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse" id="navbarSearch">
-                <form class="d-flex ms-auto">
-                    <input class="form-control flex-grow-1 me-2" type="search" placeholder="Search mail" aria-label="Search">
+            <!-- Logo (always visible) -->
+            <a class="navbar-brand" href="#">
+                <img src="img/bay-mail.png" alt="Bay Mail Logo" class="logo">
+            </a>
+
+            <!-- Search bar (always visible) -->
+            <div class="navbar-collapse d-flex justify-content-end" id="navbarSearch">
+                <form class="d-flex">
+                    <input class="form-control flex-grow-1 me-1" type="search" placeholder="Search mail" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
-            
         </div>
     </nav>
+    
 
     <!-- Main Layout with Sidebar and Content -->
     <div class="container-fluid">
