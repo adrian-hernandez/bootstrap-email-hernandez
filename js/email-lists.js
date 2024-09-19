@@ -30,7 +30,7 @@ const emails = {
                     <div class="col-xs-12 col-sm-12 col-lg-7 message"><p>Please review the updated company policies.</p></div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>8:15 AM</p></div>
+            <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>Sept 18</p></div>
             <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
     ],
@@ -66,7 +66,7 @@ const emails = {
                     <div class="col-xs-12 col-sm-12 col-lg-7 message"><p>Here are my comments on your report. Great work!</p></div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>12:30 PM</p></div>
+            <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>Sept 9</p></div>
             <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
     ],
@@ -102,7 +102,7 @@ const emails = {
                     <div class="col-xs-12 col-sm-12 col-lg-7 message"><p>Your support ticket has been resolved. Please check your inbox for details.</p></div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>5:00 PM</p></div>
+            <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>Aug 30</p></div>
             <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
     ],
@@ -127,7 +127,7 @@ const emails = {
                     <div class="col-xs-12 col-sm-12 col-lg-7 message"><p>Please review the attached contract and let me know if you have any questions.</p></div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>10:00 AM</p></div>
+            <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>Sept 7</p></div>
             <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`
     ]
