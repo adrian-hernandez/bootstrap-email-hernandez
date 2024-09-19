@@ -1,7 +1,7 @@
 const emails = {
     inbox: [
         `<div class="email-item row">
-            <div class="col-xs-12 col-sm-4 col-lg-1 sender"><p><strong>John Doe</strong></p></div>
+            <div class="col-xs-12 col-sm-3 col-lg-1 sender"><p><strong>John Doe</strong></p></div>
             <div class="col-xs-12 col-sm-6 col-lg-9">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-lg-2 subject"><p>Project Update</p></div>
@@ -9,10 +9,10 @@ const emails = {
                 </div>
             </div>
             <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>10:45 AM</p></div>
-            <button class="col-xs-12 col-sm-1 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
+            <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
         `<div class="email-item row">
-            <div class="col-xs-12 col-sm-4 col-lg-1 sender"><p><strong>Susan Smith</strong></p></div>
+            <div class="col-xs-12 col-sm-3 col-lg-1 sender"><p><strong>Susan Smith</strong></p></div>
             <div class="col-xs-12 col-sm-6 col-lg-9">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-lg-2 subject"><p>Team Lunch</p></div>
@@ -20,10 +20,10 @@ const emails = {
                 </div>
             </div>
             <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>9:30 AM</p></div>
-            <button class="col-xs-12 col-sm-1 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
+            <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
         `<div class="email-item row">
-            <div class="col-xs-12 col-sm-4 col-lg-1 sender"><p><strong>HR Dept</strong></p></div>
+            <div class="col-xs-12 col-sm-3 col-lg-1 sender"><p><strong>HR Dept</strong></p></div>
             <div class="col-xs-12 col-sm-6 col-lg-9">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-lg-2 subject"><p>Policy Update</p></div>
@@ -31,13 +31,13 @@ const emails = {
                 </div>
             </div>
             <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>8:15 AM</p></div>
-            <button class="col-xs-12 col-sm-1 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
+            <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
     ],
     
     sent: [
         `<div class="email-item row">
-            <div class="col-xs-12 col-sm-4 col-lg-1 sender"><p><strong>Jane Smith</strong></p></div>
+            <div class="col-xs-12 col-sm-3 col-lg-1 sender"><p><strong>Jane Smith</strong></p></div>
             <div class="col-xs-12 col-sm-6 col-lg-9">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-lg-2 subject"><p>Meeting Follow-up</p></div>
@@ -45,10 +45,10 @@ const emails = {
                 </div>
             </div>
             <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>11:15 AM</p></div>
-            <button class="col-xs-12 col-sm-1 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
+            <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
         `<div class="email-item row">
-            <div class="col-xs-12 col-sm-4 col-lg-1 sender"><p><strong>Tom Hanks</strong></p></div>
+            <div class="col-xs-12 col-sm-3 col-lg-1 sender"><p><strong>Tom Hanks</strong></p></div>
             <div class="col-xs-12 col-sm-6 col-lg-9">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-lg-2 subject"><p>Document Submission</p></div>
@@ -56,10 +56,10 @@ const emails = {
                 </div>
             </div>
             <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>3:00 PM</p></div>
-            <button class="col-xs-12 col-sm-1 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
+            <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
         `<div class="email-item row">
-            <div class="col-xs-12 col-sm-4 col-lg-1 sender"><p><strong>Mary Jane</strong></p></div>
+            <div class="col-xs-12 col-sm-3 col-lg-1 sender"><p><strong>Mary Jane</strong></p></div>
             <div class="col-xs-12 col-sm-6 col-lg-9">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-lg-2 subject"><p>Feedback on Report</p></div>
@@ -67,13 +67,13 @@ const emails = {
                 </div>
             </div>
             <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>12:30 PM</p></div>
-            <button class="col-xs-12 col-sm-1 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
+            <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
     ],
 
     trash: [
         `<div class="email-item row">
-            <div class="col-xs-12 col-sm-4 col-lg-1 sender"><p><strong>Michael Brown</strong></p></div>
+            <div class="col-xs-12 col-sm-3 col-lg-1 sender"><p><strong>Michael Brown</strong></p></div>
             <div class="col-xs-12 col-sm-6 col-lg-9">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-lg-2 subject"><p>Invoice Reminder</p></div>
@@ -81,10 +81,10 @@ const emails = {
                 </div>
             </div>
             <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>12:00 PM</p></div>
-            <button class="col-xs-12 col-sm-1 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
+            <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
         `<div class="email-item row">
-            <div class="col-xs-12 col-sm-4 col-lg-1 sender"><p><strong>David White</strong></p></div>
+            <div class="col-xs-12 col-sm-3 col-lg-1 sender"><p><strong>David White</strong></p></div>
             <div class="col-xs-12 col-sm-6 col-lg-9">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-lg-2 subject"><p>Subscription Expired</p></div>
@@ -92,10 +92,10 @@ const emails = {
                 </div>
             </div>
             <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>9:45 AM</p></div>
-            <button class="col-xs-12 col-sm-1 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
+            <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
         `<div class="email-item row">
-            <div class="col-xs-12 col-sm-4 col-lg-1 sender"><p><strong>Support Team</strong></p></div>
+            <div class="col-xs-12 col-sm-3 col-lg-1 sender"><p><strong>Support Team</strong></p></div>
             <div class="col-xs-12 col-sm-6 col-lg-9">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-lg-2 subject"><p>Ticket Resolved</p></div>
@@ -103,13 +103,13 @@ const emails = {
                 </div>
             </div>
             <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>5:00 PM</p></div>
-            <button class="col-xs-12 col-sm-1 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
+            <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
     ],
 
     starred: [
         `<div class="email-item row">
-            <div class="col-xs-12 col-sm-4 col-lg-1 sender"><p><strong>Chris Green</strong></p></div>
+            <div class="col-xs-12 col-sm-3 col-lg-1 sender"><p><strong>Chris Green</strong></p></div>
             <div class="col-xs-12 col-sm-6 col-lg-9">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-lg-2 subject"><p>Starred Email</p></div>
@@ -117,10 +117,10 @@ const emails = {
                 </div>
             </div>
             <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>2:30 PM</p></div>
-            <button class="col-xs-12 col-sm-1 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
+            <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`,
         `<div class="email-item row">
-            <div class="col-xs-12 col-sm-4 col-lg-1 sender"><p><strong>Anna Lee</strong></p></div>
+            <div class="col-xs-12 col-sm-3 col-lg-1 sender"><p><strong>Anna Lee</strong></p></div>
             <div class="col-xs-12 col-sm-6 col-lg-9">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-lg-2 subject"><p>Important Contract</p></div>
@@ -128,7 +128,7 @@ const emails = {
                 </div>
             </div>
             <div class="col-xs-12 col-sm-1 col-lg-1 date"><p>10:00 AM</p></div>
-            <button class="col-xs-12 col-sm-1 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
+            <button class="col-xs-12 col-sm-2 col-lg-1 btn btn-outline-success reply" type="button">Reply</button>
         </div>`
     ]
 }
