@@ -15,7 +15,7 @@
 
 .sidebar .nav-link:hover {
     background-color: #e9ecef;
-    color: #007bff;
+    color: #14A44D;
     font-weight: bold;
 }
 
@@ -32,13 +32,13 @@
 
 .email-list .email-item:hover {
     background-color: #f6f7f9;
-    color: #007bff;
+    color: #14A44D;
     cursor: pointer;
 }
 
 .email-list-container .email-item:hover {
     background-color: #f6f7f9;
-    color: #007bff;
+    color: #14A44D;
     cursor: pointer;
 }
 
@@ -63,7 +63,7 @@ main {
 
 .nav-link.active {
     background-color: #e9ecef;
-    color: #007bff;
+    color: #14A44D;
     font-weight: bold;
 }
 
@@ -88,4 +88,8 @@ main {
     body.sidebar-open {
         overflow: hidden;
     }
+}
+
+.reply {
+    margin: auto;
 }
