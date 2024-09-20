@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.classList.toggle('sidebar-open'); // Prevent scrolling when sidebar is open
     });
 
-    // Optional: Hide sidebar when a menu item is clicked (for mobile only)
+    // Hide sidebar when a menu item is clicked (for mobile only)
     document.querySelectorAll('#sidebar .nav-link').forEach(function (link) {
         link.addEventListener('click', function () {
             if (window.innerWidth < 768) { // Only hide if in mobile view
